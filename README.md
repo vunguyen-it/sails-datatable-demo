@@ -21,7 +21,7 @@ The url format is ```postgres://username:password@hostname:port/database```
 ```sails lift```
 
 - Init the database by accessing to the url below:  
-```http://localhost:1337/init-data```
+http://localhost:1337/init-data
 
 Now you can view the datatable demo page at the following url:
-```http://localhost:1337/datatable```
+http://localhost:1337/datatable
