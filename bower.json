@@ -1,0 +1,23 @@
+{
+  "name": "sails-app-demo",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "vunguyen"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/dependencies/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.2.1",
+    "datatables": "datatable#^1.10.15"
+  }
+}
