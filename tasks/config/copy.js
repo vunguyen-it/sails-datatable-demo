@@ -11,7 +11,7 @@
  *   https://sailsjs.com/anatomy/tasks/config/copy-js
  *
  */
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   grunt.config.set('copy', {
     dev: {
@@ -20,6 +20,11 @@ module.exports = function(grunt) {
         cwd: './assets',
         src: ['**/*.!(coffee|less)'],
         dest: '.tmp/public'
+      }, {
+        expand: true,
+        cwd: './node_modules',
+        src: require('../dependences.js').denpendencesFiles,
+        dest: '.tmp/public/dependencies'
       }]
     },
     build: {
@@ -28,6 +33,11 @@ module.exports = function(grunt) {
         cwd: '.tmp/public',
         src: ['**/*'],
         dest: 'www'
+      }, {
+        expand: true,
+        cwd: './node_modules',
+        src: require('../dependences.js').denpendencesFiles,
+        dest: 'www/dependencies'
       }]
     }
   });
