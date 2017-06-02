@@ -1,12 +1,14 @@
 {
   "name": "sails-app-demo",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
     "async": "2.0.1",
+    "datatables": "^1.10.13",
     "grunt": "1.0.1",
+    "jquery": "3.2.1",
     "lodash": "3.10.1",
     "sails": "^1.0.0-33",
     "sails-hook-grunt": "^2.0.0",
@@ -25,10 +27,7 @@
     "debug": "node debug app.js"
   },
   "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/vunguyen/sails-app-demo.git"
-  },
+  "repository": "git://github.com/vunguyen/sails-app-demo.git",
   "author": "vunguyen",
-  "license": ""
+  "license": "MIT"
 }
