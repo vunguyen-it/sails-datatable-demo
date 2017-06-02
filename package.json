@@ -20,11 +20,7 @@
     "eslint": "3.5.0"
   },
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
-    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
-    "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
-    "custom-tests": "echo \"(No other custom tests yet.)\" && echo",
-    "debug": "node debug app.js"
+    "start-sails": "./node_modules/sails/bin/sails.js lift"
   },
   "main": "app.js",
   "repository": "git://github.com/vunguyen/sails-app-demo.git",
