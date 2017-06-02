@@ -36,7 +36,7 @@ var cssFilesToInject = [
 
     // Bring in `.css` files for themes and style guides (e.g. bootstrap)
     // 'dependencies/**/*.css',
-    'dependencies/bower_components/datatables/media/css/jquery.dataTables.css',
+    '/dependencies/datatables/media/css/jquery.dataTables.css',
 
     // All of the rest of your custom `.css` files will be injected here,
     // in no particular order.  To customize the ordering, add additional
@@ -68,8 +68,8 @@ var jsFilesToInject = [
     // Bring in `.js` files for any other client-side JavaScript dependencies.
     // (e.g. Lodash, jQuery, React, bootstrap.js, Ember, Angular, etc.)
     // 'dependencies/**/*.js',
-    'dependencies/bower_components/datatables/media/js/jquery.js',
-    'dependencies/bower_components/datatables/media/js/jquery.dataTables.js',
+    '/dependencies/jquery/dist/jquery.js',
+    '/dependencies/datatables/media/js/jquery.dataTables.js',
 
     // All of the rest of your custom client-side js files will be injected here,
     // in no particular order.  To customize the ordering, add additional items
