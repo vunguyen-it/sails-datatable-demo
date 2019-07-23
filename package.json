@@ -9,7 +9,7 @@
     "datatables": "^1.10.13",
     "grunt": "1.0.1",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "sails": "^1.0.0-33",
     "sails-hook-grunt": "^2.0.0",
     "sails-hook-orm": "^2.0.0-16",
